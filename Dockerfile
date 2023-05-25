@@ -9,7 +9,7 @@ COPY model.pkl .
 
 RUN pip install -r requirements.txt
 
-EXPOSE 5000
+EXPOSE 5002
 
 ENTRYPOINT ["python"]
 
